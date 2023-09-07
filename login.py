@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Sample user data (replace this with your actual user data)
 users = [
     {"username": "user1", "password": "password1"},
     {"username": "user2", "password": "password2"},
