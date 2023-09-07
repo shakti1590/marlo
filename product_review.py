@@ -10,7 +10,6 @@ def submit_review():
     product_id = data.get('product_id')
     review_text = data.get('review_text')
     rating = data.get('rating')
-    # Store the review and rating for the product
     if product_id in product_reviews:
         product_reviews[product_id].append({'review': review_text, 'rating': rating})
     else:
